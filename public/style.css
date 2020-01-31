@@ -1,0 +1,14 @@
+td{
+    width: 1vmin;
+    height: 1vmin;
+    background-color: #bf5;
+    border: 1px solid black;
+}
+
+.food{
+    background-color: white;
+}
+
+.snake{
+    background-color: black;
+}
