@@ -9,6 +9,7 @@ class Snake{
         this.head = []
         this.direction = null
         this.setDirectionAndMove = this.setDirectionAndMove.bind(this)
+        this.reset = this.reset.bind(this)
     }
 
     backupDiv(){
@@ -76,7 +77,7 @@ class Snake{
         resetButton.innerText = "Reset"
         controlPanel.id = "control-panel"
 
-        resetButton.addEventListener("click", this.reset.bind(this))
+        resetButton.addEventListener("click", this.reset)
 
         controlPanel.appendChild(resetButton)
         
